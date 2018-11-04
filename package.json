@@ -7,8 +7,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "firebase": "^5.5.7",
+    "native-base": "^2.8.1",
+    "prop-types": "^15.6.2",
     "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4"
+    "react-native": "0.57.4",
+    "react-native-router-flux": "^4.0.5",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
