@@ -1,32 +1,35 @@
 {
-  "name": "ReactNativeApp",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
-  "dependencies": {
-    "firebase": "^5.5.7",
-    "native-base": "^2.8.1",
-    "prop-types": "^15.6.2",
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4",
-    "react-native-elements": "^0.19.1",
-    "react-native-loading-spinner-overlay": "^1.0.1",
-    "react-native-router-flux": "^4.0.5",
-    "react-native-ui-kitten": "^3.1.2",
-    "react-redux": "^5.1.0",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
-  },
-  "devDependencies": {
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.49.0",
-    "react-test-renderer": "16.6.0-alpha.8af6728"
-  },
-  "jest": {
-    "preset": "react-native"
-  }
+	"name": "ReactNativeApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"base-64": "^0.1.0",
+		"firebase": "^5.5.7",
+		"native-base": "^2.8.1",
+		"prop-types": "^15.6.2",
+		"react": "16.6.0-alpha.8af6728",
+		"react-native": "0.57.4",
+		"react-native-elements": "1.0.0-beta7",
+		"react-native-loading-spinner-overlay": "^1.0.1",
+		"react-native-router-flux": "^4.0.5",
+		"react-native-textinput-effects": "^0.4.2",
+		"react-native-ui-kitten": "^3.1.2",
+		"react-native-vector-icons": "^6.1.0",
+		"react-redux": "^5.1.0",
+		"redux": "^4.0.1",
+		"redux-thunk": "^2.3.0"
+	},
+	"devDependencies": {
+		"babel-jest": "23.6.0",
+		"jest": "23.6.0",
+		"metro-react-native-babel-preset": "0.49.0",
+		"react-test-renderer": "16.6.0-alpha.8af6728"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
 }

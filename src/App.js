@@ -3,9 +3,10 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
 
-import Routes from "./Routes";
-import reducers from "./reducers";
+import Routes from './Routes';
+import reducers from './reducers';
 
+console.disableYellowBox = true;
 
 class App extends Component {
 	render() {

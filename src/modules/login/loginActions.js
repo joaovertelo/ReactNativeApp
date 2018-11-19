@@ -4,7 +4,7 @@ import { Actions } from 'react-native-router-flux';
 
 const BASE_ACTION = 'LOGIN/';
 
-export const CHANGE_VALUE = BASE_ACTION + 'CHANGE';
+export const CHANGE_VALUE = BASE_ACTION + 'CHANGE_VALUE';
 export const CADASTRA_USUARIO_SUCESSO = BASE_ACTION + 'CADASTRA_USUARIO_SUCESSO';
 export const CADASTRA_USUARIO_ERRO = BASE_ACTION + 'CADASTRA_USUARIO_ERRO';
 export const AUTENTICAR_USUARIO = BASE_ACTION + 'AUTENTICAR_USUARIO';
@@ -12,6 +12,7 @@ export const LOGIN_SUCESSO = BASE_ACTION + 'LOGIN_SUCESSO';
 export const LOGIN_ERROR = BASE_ACTION + 'LOGIN_ERROR';
 
 export function changeValue(name, value) {
+	console.log
 	return {
 		type: CHANGE_VALUE,
 		name: name,
