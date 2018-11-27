@@ -99,10 +99,8 @@ class Login extends Component {
 							title="Entrar"
 							onPress={() => alert(email)}
 							buttonStyle={{
-								height: 60,
-								borderColor: 'transparent',
-								borderWidth: 0,
-								borderRadius: 20
+								height: 60
+								
 							}}
 						/>
 
